@@ -1,5 +1,6 @@
 # Projet 6 : Classification de Races de Chiens
 
+
 ## Introduction
 
 Ce projet porte sur la classification d'images de races de chiens à partir du **Stanford Dogs Dataset**. Deux approches principales sont explorées : la création et l'entraînement de réseaux de neurones convolutionnels (CNN) et l'utilisation de modèles déjà entraînés via du **Transfer Learning** pour améliorer les perfomances.
@@ -55,3 +56,6 @@ Ce projet a permis de comparer les performances entre des CNN personnalisés et 
 - **VGG16**, **MobileNetV1** pour le Transfer Learning
 - Techniques de **Data Augmentation** et **Prétraitement d'images**
 
+## Fichiers Manquants
+
+Le fichier frontend.py importe des fichiers situé dans un dossier utils, ce dossier utils contient notamment le modèle et les images du dataset mais ces derniers n'ont pas pu être uploadés sur ce dépôt Github en raison de leur taille.
