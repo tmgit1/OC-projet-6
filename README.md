@@ -5,6 +5,24 @@
 
 Ce projet porte sur la classification d'images de races de chiens à partir du **Stanford Dogs Dataset**. Deux approches principales sont explorées : la création et l'entraînement de réseaux de neurones convolutionnels (CNN) et l'utilisation de modèles déjà entraînés via du **Transfer Learning** pour améliorer les perfomances.
 
+## Arborescence du repository
+OC-projet-6
+│
+├── README.md                      
+│   - Description du projet
+│
+├── Menard_Tom_1_notebook_prétraitement_052024.ipynb
+│   - Notebook pour le prétraitement des images (redimensionnement, égalisation d'histogramme, whitening, etc.)
+│
+├── Menard_Tom_2_notebook_model_perso_052024.ipynb
+│   - Création et entraînement de réseaux de neurones convolutionnels personnalisés (CNNs)
+│
+├── Menard_Tom_3_notebook_model_transfer_learning_052024.ipynb
+│   - Utilisation de modèles pré-entraînés pour améliorer les performances de la classification
+│
+└── frontend.py
+    - Script pour la gestion de l'interface utilisateur
+
 ## Objectifs
 
 - **Prétraitement des images** : application de techniques spécifiques telles que le _whitening_ et l'_equalization_ pour améliorer la qualité des données d'entrée.
@@ -58,4 +76,4 @@ Ce projet a permis de comparer les performances entre des CNN personnalisés et 
 
 ## Fichiers Manquants
 
-Le fichier frontend.py importe des fichiers situé dans un dossier utils, ce dossier utils contient notamment le modèle et les images du dataset mais ces derniers n'ont pas pu être uploadés sur ce dépôt Github en raison de leur taille.
+Le fichier frontend.py importe des fichiers situé dans un dossier utils, ce dossier utils contient notamment le modèle et les images du dataset mais ces derniers n'ont pas pu être uploadés sur ce dépôt Github en raison de leur taille trop importante.
